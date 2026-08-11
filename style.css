@@ -100,6 +100,26 @@ nav a.active {
   background: var(--primary-dark);
 }
 
+.secondary {
+  background: #e0e7ff;
+  color: var(--primary-dark);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.welcome-message {
+  margin-top: 1rem;
+  color: var(--primary-dark);
+  font-weight: 600;
+  min-height: 1.5rem;
+}
+
 section h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
